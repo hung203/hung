@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(img/camera-g51e5585ce_1920.jpg);
+    background-size: cover;
+}
+.mark{
+    position: absolute;
+    top: 16px;
+    right: 22px;
+
+}
+.mark i{
+    color: #fff;
+    font-size: 18px;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    display: block;
+    min-width: 400px;
+    background:rgb(0,0,0,0.8);
+    box-shadow: -4px 4px 13px 2px rgb(255 255 255 / 80%);
+    padding: 40px;
+    position: relative;
+}
+
+.text_sub{
+    color: #fff;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.form_gruop{
+    border-bottom: 1px solid #fff;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.form_gruop i{
+    color: #fff; 
+}
+.form_gruop .fa-user,.form_gruop .fa-key{
+    padding-right: 8px;
+}
+#eye{
+    cursor: pointer;
+}
+.form_input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    flex-grow: 1;
+}
+.form_submit{
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 16px;
+}
